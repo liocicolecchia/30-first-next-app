@@ -1,9 +1,9 @@
-function ShareMealsPage() {
+function ShareMealPage() {
   return (
     <main>
-      <h1>Share Meals Page</h1>
+      <h1>Share Meal Page</h1>
     </main>
   );
 }
 
-export default ShareMealsPage;
+export default ShareMealPage;

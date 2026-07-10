@@ -1,4 +1,4 @@
-function MealDetailPage() {
+function MealDetailsPage() {
   return (
     <main>
       <h1>Meal Detail Page</h1>
@@ -6,4 +6,4 @@ function MealDetailPage() {
   );
 }
 
-export default MealDetailPage;
+export default MealDetailsPage;
