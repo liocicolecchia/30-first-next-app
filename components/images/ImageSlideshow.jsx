@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -20,7 +22,7 @@ const images = [
   { image: tomatoSaladImg, alt: "A delicious tomato salad" },
 ];
 
-export default function ImageSlideshow() {
+function ImageSlideshow() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -46,3 +48,5 @@ export default function ImageSlideshow() {
     </div>
   );
 }
+
+export default ImageSlideshow;
